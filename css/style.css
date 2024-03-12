@@ -4,10 +4,16 @@
 }
 
 
+
 header{
     background-color: lightblue;
     width: 100vw;
-    height: 15vh;
+    height: 12vh;
+}
+
+h1{
+    text-align: center;
+    padding: 1%;
 }
 
 section{
@@ -15,14 +21,25 @@ section{
     
 }
 
+
 aside{
     background-color: aqua;
-    width: 20vw;
-    height: 85vh;
+    width: 18vw;
+    /* Auto adjusts height to always have content be within the boarder. */
+    height: auto;
+    /* Minimum height length has to be the height of the screen*/
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/** centering aside text **/
+.aside-nav-bar{
+    margin: 2% auto;
 }
 
 main{
     background-color: blue;
-    width: 80vw;
-    height: 85vh;
+    width: 82vw;
+    height: auto;
 }
