@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: lightblue;
+    width: 100vw;
+    height: 15vh;
+}
+
+section{
+    display: flex;
+    
+}
+
+aside{
+    background-color: aqua;
+    width: 20vw;
+    height: 85vh;
+}
+
+main{
+    background-color: blue;
+    width: 80vw;
+    height: 85vh;
+}
